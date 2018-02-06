@@ -1,0 +1,170 @@
+body{
+	display: flex;
+	flex-direction: column;
+	font-family:'Short Stack',Arial, Georgia,Trebuchet MS,  Sans-Serif;
+	background: #fff;
+}
+
+.page-header{
+	/*background: blue;*/
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	font-family:'Gloria Hallelujah', Georgia;
+	width: 100%;
+}
+
+.page-main-header{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	flex: 0 0 100%;
+}
+
+.header-title{
+	width: 50%;
+}
+
+.header-title h1{
+	padding: 15% 10% 0% 25%;
+	font-size: 2.5em;
+}
+
+.header-main-image{
+}
+
+.header-main-image img{
+	max-width: 60%;
+	/*padding: 3%;*/
+}
+
+.header-menubar{
+	width: 100%;
+}
+
+.header-menubar ul{
+	margin-bottom: 0px;
+}
+
+
+.header-menubar li{
+	display: inline-block;
+	padding: 0px 20px;
+	text-decoration: none;
+	color: deepskyblue;
+}
+
+.header-menubar li a{
+	text-decoration: none;
+	color: deepskyblue;
+}
+
+.header-separator{
+	width: 100%;
+}
+
+.header-separator img{
+	position: relative;
+	margin-top: -5%;
+	z-index: -1;
+
+}
+
+.page-main{
+	/*background: grey;*/
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+
+.page-left-side{
+	width: 20%;
+}
+
+.page-left-side h4{
+	color: deepskyblue;
+	margin-bottom: 0px;
+}
+
+.page-left-side > div{
+	padding-left: 10%;
+}
+
+.page-center-side{
+	width: 70%;
+
+}
+
+.page-right-side{
+	width: 10%;
+}
+
+.article{
+	text-align: center;
+	padding-top: 2%;
+}
+
+.article-title h2{
+	margin-bottom: 0px;
+}
+
+.article-divider{
+	position: relative;
+	margin-top: -15px;
+	padding: 0 10%;
+	z-index: -1;
+}
+
+.article-comments-count h4{
+	margin-bottom: 0px;
+}
+
+.article-categories h4{
+	margin-top: 0px;
+}
+
+.article-short-content{
+	font: 14px 'Short Stack', Georgia; 
+	padding: 5% 10% 0% 10%;
+	text-indent: 10%;
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+.article-search{
+	padding-top: 20%;
+}
+
+.article-search h4{
+}
+
+.article-follow{
+}
+
+.article-recent-post-summary{
+	padding-left: 0px;
+	width: 100%;
+	height: 100px;
+}
+
+.article-recent-post-summary-image{
+	float: left;
+	width: 50%;
+	height: 50px;
+}
+
+.article-recent-post-summary-text{
+	font-size: 10px;
+}
+
+.page-footer-bg{
+	background: #C0C0C0;
+	width: 100%;
+	height: 200px;
+}
+
+.page-footer{
+	background: url(../img/ftrpencils.png) no-repeat center;
+	width: 100%;
+	height: 100%;
+}
